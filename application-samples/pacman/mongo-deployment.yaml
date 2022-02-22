@@ -15,7 +15,7 @@ spec:
         name: mongo
     spec:
       containers:
-      - image: quay.io/powercloud/mongodb:latest
+      - image: quay.io/powercloud/mongodb:green
         name: mongo
         ports:
         - name: mongo
